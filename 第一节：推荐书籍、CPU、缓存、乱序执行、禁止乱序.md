@@ -1,17 +1,19 @@
+[TOC]
+
 # 相关书籍推荐
 
-读书的原则：不求甚解，观其大略
+==读书的原则：不求甚解，观其大略==
 
 你如果进到庐山里头，二话不说，蹲下头来，弯下腰，就对着某棵树某棵小草猛研究而不是说先把庐山的整体脉络跟那研究清楚了，那么你的学习方法肯定效率巨低而且特别痛苦，最重要的还是慢慢地还打击你的积极性，说我的学习怎么那么不happy啊，怎么那么特没劲那，因为你的学习方法错了，大体读明白，先拿来用，用着用着，很多道理你就明白了
 
-▪《编码：隐匿在计算机软硬件背后的语言》---入门
+▪ **《编码：隐匿在计算机软硬件背后的语言》---入门**
 
 《计算机是怎么跑起来的？》--写的一般    
 
 
-▪《深入理解计算机系统》--比较难
+▪ **《深入理解计算机系统》--比较难**
 
-▪语言：C JAVA 《C程序设计语言》(K&R)  《C Primer Plus》---这两本程序员必读
+▪语言：C JAVA **《C程序设计语言》(K&R) ** **《C Primer Plus》---这两本程序员必读**
 
 ▪ 数据结构与算法： -- 毕生的学习 leetCode---程序员必读
 
@@ -19,15 +21,17 @@
     
     –《算法导论》《计算机程序设计艺术》--难
 
-▪操作系统：Linux内核源码解析  Linux内核设计与实现 30天自制操作系统
+▪操作系统：**Linux内核源码解析**  **Linux内核设计与实现** **30天自制操作系统**
     
     大学课程难，课程内容是：怎么做一个操作系统
 
-▪网络：机工《TCP/IP详解》卷一 翻译一般--强烈推荐
+▪网络：**机工《TCP/IP详解》卷一 翻译一般--强烈推荐**
 
-▪编译原理：机工 龙书--《编译原理》 《编程语言实现模式》
+▪编译原理：机工 龙书--**《编译原理》 《编程语言实现模式》**
 
 ▪数据库：SQLite源码  Derby--JDK自带数据库
+
+周老师推荐：《深入理解linux内核》《深入理解计算机系统》  这两本书能夯实基础，应对大多数的面试
 
 # 硬件基础知识
 
@@ -54,7 +58,7 @@ https://www.sohu.com/a/255397866_468626
 
 
 
-计算机需要解决的最根本问题：如何代表数字
+**计算机需要解决的最根本问题：如何代表数字**
 
 晶体管是如何工作的：
 
@@ -64,32 +68,30 @@ https://haokan.baidu.com/v?vid=16026741635006191272&pd=bjh&fr=bjhauthor&type=vid
 
 https://www.bilibili.com/video/av47388949?p=2
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/102.png)
+![102](058E2D52CA334BFFAF3BAC58B3779EFD)
 
-    计算机中增加了机械部件----运十原理
+计算机中增加了机械部件----运十原理
 
-    cpu64位，是cpu一次能读多少位数据
+**cpu64位，是cpu一次能读多少位数据**
     
-    cpu多少位，跟总线的位数没有密切关系，如果总线不到64根，cpu多次读数据
+**cpu多少位，跟总线的位数没有密切关系，如果总线不到64根，cpu多次读数据**
     
     
-    让计算机看懂计算：01000010 + 00101100 ...
-        cpu的针脚通电来代表0/1
+让计算机看懂计算：01000010 + 00101100 ... **cpu的针脚通电来代表0/1**
         
-    手工输入：纸带计算机
-        bug的来源，有一个小孔被小虫子堵住了
+手工输入：纸带计算机 -》bug的来源，有一个小孔被小虫子堵住了
     
-    助记符：01000010  - mov  sub
-        汇编语言
+**助记符**：01000010  - mov  sub  -》**汇编语言**
         
-    高级语言 -> 编译器 -> 机器语言
+**高级语言 -> 编译器 -> 机器语言**
     
-    编译：编译完的代码放到内存中就是机器码，cpu可以直接执行
-    解释：java的二进制码，交给JVM，解释为机器码，cpu执行
+==编译：编译完的代码放到内存中就是机器码，cpu可以直接执行==
+
+==解释：java的二进制码，交给JVM，解释为机器码，cpu执行==
 
 ### 汇编语言（机器语言）的执行过程
 
-汇编语言的本质：机器语言的助记符 其实它就是机器语言
+**汇编语言的本质：机器语言的助记符 其实它就是机器语言**
 
 计算机通电 -> CPU读取内存中程序（电信号输入）
 
@@ -99,8 +101,8 @@ https://www.bilibili.com/video/av47388949?p=2
 
 ->计算完成->写回（电信号）->写给显卡输出（sout，或者图形）
 
-        时钟发生器震荡一次，CPU执行一步
-        时钟发生器，现在是Ghz，几十亿次/秒
+    时钟发生器震荡一次，CPU执行一步
+    时钟发生器，现在是Ghz，几十亿次/秒
         
 
 ### 量子计算机
@@ -108,16 +110,17 @@ https://www.bilibili.com/video/av47388949?p=2
 量子比特，同时表示1 0
 
 薛定谔的猫
-
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/104.png)
-
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/105.png)
+![104](B065AA2A7D5D4361922F27E638ACF5A5)
+![105](8BA76CFBBDE24D14A0A037C4D895B892)
 
 
 ---
 # java相关的硬件知识
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/103.png)
+![103](FC92CA0674C44878B226D769114E6DCF)
+
+###### 问题1：内存中的东西怎么发给显卡的
+###### 问题2:java的bytecode(二进制码)
 
     最核心：CPU+内存
         
@@ -153,25 +156,27 @@ https://www.bilibili.com/video/av47388949?p=2
     
     MMU -> Memory Management Unit 内存管理单元
     
-    cache
+    cache:高速缓存L1 L2
 
 ### 缓存cache
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/106.png)
+![106](C05535044E754A0EA8DF3783EDDB0D85)
+
     
     超线程
         线程切换
         8核16线程，可以同时执行8个线程，因为ALU只有8个，CPU可以读取16个线程，但是同时并行执行的8个线程
+        
+![107](8FC6B7F241F74E4299D357703CC822BB)
+![108](C99903CB668D4738B0BBC5034FC8DC46)
+![109](D895275A629B4D79B796F9FBA420FDED)
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/107.png)
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/108.png)
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/109.png)
 
     存储器的层次结构
         高速缓存
 
+![111](658BB95B9DA942BC84967E63384014A9)
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/111.png)
 
     一致性协议：https://www.cnblogs.com/z00377750/p/9180644.html
         总线锁
@@ -180,8 +185,9 @@ https://www.bilibili.com/video/av47388949?p=2
     按块读取
     程序局部性原理，可以提高效率
     充分发挥总线、CPU针脚等一次性读取更多数据的能力
-    
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/110.png)    
+
+![110](7781DA663C294A07B8344F7AFEBE6945)
+   
     
     缓存行：
         缓存行越大，局部性空间效率越高，但读取时间慢
@@ -254,8 +260,8 @@ public class T04_CacheLinePadding {
     }
 }
 ```
+![112](C6DBC3F3FA28422D9E07E17DFC45E8E5)
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/112.png) 
 
     缓存行对齐：对于有些特别敏感的数字，会存在线程高竞争的访问，为了保证不发生伪共享，可以使用缓存行对齐的编程方式
         应用：disruptor--cursor游标
@@ -303,8 +309,7 @@ public class T05_contened {
 
 ### 乱序执行
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/202.png) 
-
+![202](7B55CA8DD35A4AD2AE29580603D96F40)
 
 乱序执行的证明：
 
@@ -369,36 +374,37 @@ public class T04_Disorder {
 
 DCL单例为什么要加volatile？
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/203.png)
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/204.png)
+![203](709211EB57CA4E8E9F3FDF2C7FD6271B)
+![204](D7B633B9CE6F490393160E150EA9C8D2)
+
 
 ### 禁止乱序
+![205](282FDA7D9F8F4EF299A30E5D73CC8D5F)
+![206](63BB2582C0CD42CD9B9E58C7042F1EEB)
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/205.png)
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/206.png)
 
-==**CPU层面：Intel -> 原语(mfence(mixed) lfence sfence) 或者锁总线**==
+==**CPU层面：Intel -> 原语(mfence(mixed) lfence sfence) 或者内存屏障**==
 
 ==volatile的汇编命令：lock addl 0x0(加0)==
 
 ==synchronidez的汇编命令：lock cmpxchg==
 
+![207](CD5E888055994DD98BB6C1C7A9255DDE)
+![208](5F96144FB293449B958675C1BFC3FF29)
+![209](BFCB12286C444264945DB4A95D965C28)
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/207.png)
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/208.png)
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/209.png)
 
 ==JVM层级：8个hanppens-before原则 4个内存屏障 （LL LS SL SS）、as-if-serial==
 
 volatile的jvm实现：使用内存屏障，实现比较保守
 
-volatile修饰对象，是锁定这个对象，不是内存地址
+**volatile修饰对象，是锁定这个对象，不是内存地址**
 
 hanppens-before原则(不需要背)，JLS中有，第17章4.5节
 
 ==as-if-serial : 不管硬件什么顺序，单线程执行的结果不变，看上去像是serial==
 
-==面试题：有一个系统，有很多请求，使用线程池，想要请求顺序执行，应该怎么做==？
+###### ==面试题：有一个系统，有很多请求，使用线程池，想要请求顺序执行，应该怎么做==？
 
     使用singleThreadPool，里面有队列
 
@@ -410,7 +416,7 @@ Write Combining Buffer
 
 由于ALU速度太快，所以在写入L1的同时，写入一个WC Buffer，满了之后，再直接更新到L2
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/210.png)
+![210](30FA109A70B54D13B0BE5A7AD1F5A66E)
 
 
 ```
@@ -478,7 +484,7 @@ public final class WriteCombining {
 
 ### NUMA
 
-![image](https://raw.githubusercontent.com/musictaste/os/master/image/211.png)
+![211](3BE5EB193FA6486193F00B2F51E2F424)
 
 ==UMA:同一内存访问    多个cpu通过总线直接访问内存==
 
